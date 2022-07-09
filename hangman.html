@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hangman game</title>
+    </head>
+    <body>
+        <h1>Play hangman!</h1>
+        <pre style="margin:0;display:inline;float:left">Used letters: </pre>
+        <pre id="used_letters" style="margin:0;display:inline;float:left"></pre>
+        <br>
+        <pre id="error_num">Number of errors:</pre >
+        <div id="main">
+        </div>
+        <label>Type a letter</label>
+        <input id="letter">
+        <button id="submit_letter_btn">Select letter</button>
+        <br>
+        <br>
+        <button id="restart_btn">Restart</button>
+        <button onclick="window.location.href='login.html'">Log out</button>
+        <br>
+        
+    </body>
+    <!-- <script type="text/javascript" src="is_a_letter.js"></script>
+    <script type="text/javascript" src="hangman.js"></script> -->
+    <script type="text/javascript" src="./dist/main.js"></script>
+    
+</html>
